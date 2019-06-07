@@ -12,6 +12,9 @@ contract StarNotary is ERC721 {
         string symbol;
         address addressBelongingTo;
     }
+    
+    string public name = "Aaron's Tokens";
+    string public symbol = "ANT";
 
     // Implement Task 1 Add a name and symbol properties
     // name: Is a short name to your token
