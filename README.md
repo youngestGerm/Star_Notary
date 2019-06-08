@@ -7,3 +7,5 @@ Token Name: 'Aaron's Tokens'
 Token Symbol: 'ANT'
 
 Token Address: '0x6686B305385ADba14e74692D426010ae339A9c4c'
+
+Steps to run and test project:
