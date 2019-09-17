@@ -33,7 +33,16 @@ Check Metamask first. If it cannot connect to network http://127.0.0.1:9545/ it 
 
 > MetaMask - RPC Error: Internal JSON-RPC error. {code: -32603, message: "Internal JSON-RPC error.", stack: "Error: WalletMiddleware - Invalid "from" address.↵…. The error originated also in metamask with the following message: 
 
-Make sure that the address that is being used on Metamask matches the one that the App.account has which is executable in the console on chrome.
+Make sure that the address that is being used on Metamask matches the one that the ```App.account``` has which is executable in the console on chrome. Make sure that the metamask account is also one of the 10 accounts provided in terminal. Do  ```truffle compile``` and ```truffle migrate --reset``` if all else fails.
+
+> ALERT: Trying to call a function on a non-contract address.
+
+Related to the problem above with App.account.
+
+## Potential Errors When Starting
+> Error: Cannot find module 'truffle-hdwallet-provider'
+
+Make sure that you have done ```npm install``` where ever npm was initialized.
 
 ## Background Information
     Versions: openzeppelin-solidity@2.1.2 truffle@5.0.21
