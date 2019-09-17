@@ -4,25 +4,25 @@
 
 1. We will first build and create our test blockchain (backend). In terminal: 
 ``` 
-    a. cd <root project folder> // Change directory to project folder on terminal
-    b. truffle compile 
-    c. truffle migrate // truffle migrate --reset if necessary
-    d. truffle develop // or launch ganache, infura, etc.
+    $ cd <root project folder> // Change directory to project folder on terminal
+    $ truffle compile 
+    $ truffle migrate // truffle migrate --reset if necessary
+    $ truffle develop // or launch ganache, infura, etc.
 ```
 2. We will next establish the front end. Open up another terminal window, separate from the first one. In terminal in the project root folder:
 ```
-    a. cd app
-    b. npm run dev 
+    $ cd app
+    $ npm run dev 
 ```
 3. We will next create a star using the front end webpage. To access the information that the star contains, open the HTML link that the command above produced, and input data. Note that Metamask address is the same as the HTML App.address.
 
 ## Running Tests
 ```
-    a. cd <root project folder> // Change directory to project folder on terminal
-    b. truffle compile 
-    c. truffle migrate // truffle migrate --reset if necessary
-    d. truffle develop
-    e. test // this is code executed in the develop console
+    $ cd <root project folder> // Change directory to project folder on terminal
+    $ truffle compile 
+    $ truffle migrate // truffle migrate --reset if necessary
+    $ truffle develop
+    $ test // this is code executed in the develop console
 ```
 
 ## Potential Errors in Chrome Console 
