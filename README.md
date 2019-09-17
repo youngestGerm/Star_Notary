@@ -41,3 +41,4 @@ Make sure that the address that is being used on Metamask matches the one that t
     Token Address: '0x6686B305385ADba14e74692D426010ae339A9c4c'
     
 **Note that this is the second project that was accomplished in the Udacity Blockchain nanodegree program.**
+**If this message is seen, everything should be updated and all is well**
